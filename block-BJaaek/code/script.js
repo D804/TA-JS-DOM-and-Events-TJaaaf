@@ -1,20 +1,22 @@
-let btn=document.querySelector(".banner");
-let btn2=document.querySelector(".banner");
-let box1=document.querySelector(".box first");
-let box2=document.querySelector(".box second");
-btn.addEventListener("click",function(){
+
+
+let box1=document.querySelector(".first");
+
+box1.addEventListener("click",function(){
     let color="#";
     color+=Math.random().toString(16).slice(2,8);
-    box1.style.backgroundcolor=color;
-    console.log(color);
+   box1.style.backgroundColor=color;
+  
 });
-btn2.addEventListener("mousemove",function(){
+
+let box2=document.querySelector(".second");
+
+box2.addEventListener("mousemove",function(){
     let color="#";
     color+=Math.random().toString(16).slice(2,8);
-    box2.style.backgroundcolor=color;
-    console.log(color);
+   box2.style.backgroundColor=color;
+  
 });
-console.dir()
 
 
 
