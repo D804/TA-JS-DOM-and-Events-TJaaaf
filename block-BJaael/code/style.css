@@ -28,8 +28,28 @@ ol,
 ul {
   list-style: none;
 }
+.container{
+  max-width: 160rem;
+  width: 100%;
+  border: 2px solid green;
+  
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 img {
   max-width: 100%;
   height: auto;
+}
+h1{
+  text-align: center;
+}
+.box{
+  height: 4rem;
+  width: 4rem;
+  border: 1px solid black;
+  text-align: center;
 }
