@@ -1,13 +1,26 @@
-let root=document.querySelector(".calculation");
 let display=document.querySelector(".display");
- function handler(txt){
-     display.innerText=txt;
+let root=document.querySelectorAll("button");
+let initialValue=0;
 
- }
-root.addEventListener("click",function(event){
-  
-    let text=event.target.innerText;
-    console.log(text);
-    handler(text);
+function handler(event){
+    if(event.target.classList.contains("equal")){
+    display.innerText=eval(display.innerText);
+    return;
+    }
+    if(event.target.classList.contains("clear")){
+        display.innerText=initialValue;
+        return;
+    }
+    if(display.innerText==initialValue){
+        display.innerText=event.target.innerText
+    }else{
+        display.innerText+=event.target.innerText;
+    }
+      
+    
+   
+}
 
-   });
+root.forEach((btn)=>{
+btn.addEventListener("click",handler);
+});
