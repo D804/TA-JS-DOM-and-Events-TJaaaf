@@ -11,7 +11,7 @@ function handler(event){
    console.log(userInfo);
  }
 form.addEventListener("submit",handler);
-function handleInput(event){
+function handleInput(event){ 
     userInfo.drone=form.elements.drone.value
 }
 form .addEventListener("input", handleInput)
