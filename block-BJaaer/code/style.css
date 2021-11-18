@@ -91,3 +91,30 @@ input[type='text'] {
 .terms {
   display: inline-block;
 }
+/*Modal*/
+.open{
+  height: 23rem;
+  width: 25rem;
+  background-color: white;
+  margin: 0 auto;
+margin-bottom: 2rem;
+
+
+}
+.modal_container{
+  padding: 1rem;
+
+  
+}
+.close_btn{
+  border: none;
+  background-color: white;
+  color: gray;
+  font-size: 1rem;
+  /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+  font-weight: 600;
+ 
+}
+.btn{
+  text-align: right;
+}
