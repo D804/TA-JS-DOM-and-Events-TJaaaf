@@ -1,0 +1,162 @@
+/* CSS Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* CSS Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main CSS */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(to right, #7f53ac 0, #657ced 100%);
+}
+* {
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.5rem;
+}
+
+body {
+  margin-top: 2rem;
+}
+
+.border{
+  padding: 0.5rem 1rem;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+select {
+  padding: 0.5rem 1rem;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  max-width: 400px;
+  margin: 2rem auto;
+  background: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+p {
+  padding-top: 1rem;
+}
+
+.form-control {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+input[type='text'] {
+  width: 100%;
+}
+
+.terms {
+  display: inline-block;
+}
+/*Modal*/
+.open{
+  height: 23rem;
+  width: 25rem;
+  background-color: white;
+  margin: 0 auto;
+margin-bottom: 2rem;
+
+
+}
+.modal_container{
+  padding: 1rem;
+
+  
+}
+.close_btn{
+  border: none;
+  background-color: white;
+  color: gray;
+  font-size: 1rem;
+  /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+  font-weight: 600;
+ 
+}
+.btn{
+  text-align: right;
+}
+small{
+  font-size: 1rem;
+}
