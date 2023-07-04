@@ -50,18 +50,4 @@ function display(data={}){
 
 modal_info.append(h1,emailId,choice,color,rating,book,terms);
 };
-funct
-   /*
-   let choice=document.createElement("p");
-   choice.innerText=`You Love ${data.choice}`;
-   let color=document.createElement("p");
-   color.innerText=`Color ${data.color}`;
-   let rating=document.createElement("p");
-   rating.innerText=`Rating ${data.rating}`;
-   let book=document.createElement("p");
-   book.innerText=`Book ${data.book}`;
-   let terms=document.createElement("p");
-   terms.innerText=`👉🏿 ${data.terms}`;
-}
-modal_info.append( email,choice,color,rating,book,terms,);
-*/
+
