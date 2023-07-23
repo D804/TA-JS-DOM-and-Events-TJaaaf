@@ -1,12 +1,9 @@
 let form =document.querySelector("form");
 let modal=document.querySelector(".modal");
 let modal_info=document.querySelector(".modal_info");
-
 let userInfo={};
 form.addEventListener("submit",(event)=> {
-
-
-    event.preventDefault();
+  event.preventDefault();
    userInfo.name= event.target.elements.name.value
   userInfo.email=event.target.elements.email.value
   userInfo.choice=event.target.elements.choice.value
@@ -22,8 +19,6 @@ close.addEventListener("click",()=>{
 });
 display(userInfo);
 });
-
-
 function display(data={}){
     modal_info.innerHTML="";
    
